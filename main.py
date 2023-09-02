@@ -81,4 +81,4 @@ def backup_vk_yadisk(vk_id, photos_count = 5) :
         json.dump(photo_out_list, out_file_json, ensure_ascii=False, indent=4)
 
 
-backup_vk_yadisk(2098406,5)
+backup_vk_yadisk()
